@@ -25,18 +25,18 @@ refactor to stabilize and standardize the UI layer. Frontend implementation also
 - Established frontend patterns that enabled parallel feature development
   without UI drift
   
-### CI/CD & Quality Gates
+### CI Integration & Quality Gates
 
-I designed and implemented the project’s CI/CD pipeline using a
-**self-hosted Jenkins instance**.
+I designed and implemented the **continuous integration (CI) stage**
+of the project’s Jenkins pipeline.
 
-- Built a Jenkins pipeline that **blocked merges on failure**
-- Enforced automated quality checks:
-  - Python linting with **flake8**
-  - Frontend linting with **PostCSS** and **HTMLHint**
-  - Backend testing with **pytest**
-  - Coverage reporting with **pycov**
-- Ensured every merge met baseline correctness and style guarantees
+- Implemented automated quality gates for every pull request:
+  - Python linting (flake8)
+  - Frontend linting (PostCSS, HTMLHint)
+  - Backend test execution (pytest)
+  - Coverage reporting (pycov)
+- Configured the CI stage to **block merges on failure**
+- Integrated CI checks into the team’s existing deployment workflow
 
 ### Dynamic Quiz Generation System
 
