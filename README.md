@@ -44,10 +44,10 @@ of the project’s Jenkins pipeline.
 
 
 I designed and implemented a modular quiz generation system used to
-produce grade-appropriate quizzes with exportable answer keys.
+produce cirriculum appropriate quizzes with exportable answer keys.
 
 Key characteristics:
-- **Data- and rule-driven architecture** supporting grades 1–8
+- **Data and rule driven architecture** supporting grades 1–8
 - Multiple question generators implemented via a shared abstract interface
 - Support for diverse question types:
   - arithmetic operations
