@@ -11,7 +11,7 @@ individual contributions**, design decisions, and implementation work.
 ## My Contributions
 
 ### Frontend Architecture & Design System
-<img src="TT-overall.gif" width="600">
+<img src="TT-overall.gif" width="700">
 
 I owned the frontend design and iteration cycle, including an early
 refactor to stabilize and standardize the UI layer. Frontend implementation also used **Tailwind CSS** with selective use of
@@ -40,7 +40,7 @@ of the project’s Jenkins pipeline.
 - Integrated CI checks into the team’s existing deployment workflow
 
 ### Dynamic Quiz Generation System
-<img src="TT-quiz.gif" width="600">
+<img src="TT-quiz.gif" width="700">
 
 
 I designed and implemented a modular quiz generation system used to
@@ -61,7 +61,7 @@ The system was integrated into the UI and **validated by stakeholders**
 against functional requirements and test cases.
 
 ### Assignment Management & Persistence
-<img src="TT-assign.gif" width="600">
+<img src="TT-assign.gif" width="700">
 
 
 I implemented an assignment management subsystem using **Flask** and
